@@ -13,7 +13,7 @@ int main(int argc, const char * argv[]) {
     printf("Enter your height length: "); scanf("%d", &h);
     
     const int vol = ( ( ( ( n * b * a ) / 2 ) * h ) / 3 ) * 2;
-    printf("The volume integer is %d\n", vol);
+    printf("The volume integer is %d cm²\n", vol);
     
     return 0;
 }
